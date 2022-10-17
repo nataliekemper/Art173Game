@@ -1,0 +1,9 @@
+class Level1 {
+    constructor() {
+        this.
+    }
+
+    init() {
+    }
+
+}
