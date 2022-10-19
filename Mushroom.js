@@ -9,6 +9,7 @@ class Mushroom {
         this.clicked = false
         this.imgCount = 0
         this.time = false
+        this.interacted = false
     }
 
 render() {
@@ -37,6 +38,7 @@ collide(ob) {
     if (d < 50 && this.keyPressed()) {
       this.clicked = true;
       this.time = true;
+      this.interacted = true;
     }
   }
 
